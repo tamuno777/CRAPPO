@@ -1,0 +1,167 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 2s all ease;
+  }
+  .reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+  }
+body , html{
+    margin: 0;
+    overflow: auto;
+}
+.first-newsletter{
+    background-image: url("images/newsletter-bg.png");
+    padding-top: 25px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+nav{
+    
+    display: flex;
+    justify-content: space-between;
+}
+.side{
+    display: flex;
+    padding-bottom: 0;
+    align-items: center;
+}
+.side >li>a{
+    margin-right: 60px;
+    justify-content: space-between;
+
+
+}
+.side >li>a{
+    font-size: large;
+    font-weight: bolder;
+}
+
+.side>li>a> div >p >button{
+    font-size: medium;
+    font-weight: bold;
+    border-radius: 50px;
+    color: white;
+
+}
+.connects{
+    line-height: 4px;
+    /* margin-left: 20px;
+    padding: 35px; */
+}
+.big{
+    margin-bottom: 80px;
+}
+.achievements{
+
+}
+.calculator{
+    position: relative;
+    top: -170px;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.coins{
+    padding-left: 100px ;
+    padding-right: 100px;
+    justify-content: space-around;
+
+   
+}
+.coins > .card {
+    
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+.stats{
+    background-image: url("images/hero-bg.png");
+
+}
+
+.subscribe{
+    background-image: url("images/newsletter-box.png");
+    align-content: center;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+.subscribe ::placeholder{
+    font-weight: bold;
+    color: white;
+    padding-bottom: 3px;
+}
+.fa-brands{
+    width: 50px;
+    font-size: larger;
+    padding-bottom: 10px;
+}
+.fa-shaerp ,.fa-user,.fa-earth-americas,.fa-greater-than{
+    font-size: larger;
+    width: 50px;
+}
+   
+
+
+
+
+
+@media  (max-width:767px) {
+    .foot-left{
+        text-align: left;
+        margin-left: 40px;
+    }
+    .image-space{
+        margin-bottom: 10px;
+        margin-top: 10px;
+       
+    }
+    /* .we-accept{
+        position: relative;
+        right: 80px;
+    } */
+    .fa-brands{
+        position: relative;
+        left: 40px;
+    }
+    .user{
+        position: relative;
+        right: 30px;
+    }
+    .world{
+        position: relative;
+        right: 25px;
+    }
+    .fa-earth-americas{
+        position: relative;
+        left: 7px;
+    }
+    .fast{
+        text-align: center;
+    }
+    .line{
+        line-height: normal;
+        margin-bottom:20px ;
+    }
+    .try{
+        text-align: center;
+        margin: auto;
+    }
+    .percent{
+        text-align: center;
+        width: 300px;
+        position: relative;
+        right: 25px;
+    }
+    
+}
